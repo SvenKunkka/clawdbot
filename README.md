@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # 🦞 Clawdbot — Personal AI Assistant
 
 <p align="center">
@@ -508,3 +512,32 @@ Thanks to all clawtributors:
   <a href="https://github.com/carlulsoe"><img src="https://avatars.githubusercontent.com/u/34673973?v=4&s=48" width="48" height="48" alt="carlulsoe" title="carlulsoe"/></a> <a href="https://github.com/search?q=ddyo"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="ddyo" title="ddyo"/></a> <a href="https://github.com/search?q=Erik"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="Erik" title="Erik"/></a> <a href="https://github.com/latitudeki5223"><img src="https://avatars.githubusercontent.com/u/119656367?v=4&s=48" width="48" height="48" alt="latitudeki5223" title="latitudeki5223"/></a> <a href="https://github.com/search?q=Manuel%20Maly"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="Manuel Maly" title="Manuel Maly"/></a> <a href="https://github.com/search?q=Mourad%20Boustani"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="Mourad Boustani" title="Mourad Boustani"/></a> <a href="https://github.com/odrobnik"><img src="https://avatars.githubusercontent.com/u/333270?v=4&s=48" width="48" height="48" alt="odrobnik" title="odrobnik"/></a> <a href="https://github.com/pcty-nextgen-ios-builder"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="pcty-nextgen-ios-builder" title="pcty-nextgen-ios-builder"/></a> <a href="https://github.com/search?q=Quentin"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="Quentin" title="Quentin"/></a> <a href="https://github.com/search?q=Randy%20Torres"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="Randy Torres" title="Randy Torres"/></a>
   <a href="https://github.com/rhjoh"><img src="https://avatars.githubusercontent.com/u/105699450?v=4&s=48" width="48" height="48" alt="rhjoh" title="rhjoh"/></a> <a href="https://github.com/ronak-guliani"><img src="https://avatars.githubusercontent.com/u/23518228?v=4&s=48" width="48" height="48" alt="ronak-guliani" title="ronak-guliani"/></a> <a href="https://github.com/search?q=William%20Stock"><img src="assets/avatar-placeholder.svg" width="48" height="48" alt="William Stock" title="William Stock"/></a>
 </p>
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+个人 AI 助理项目的历史分支，通过本机 Gateway 连接消息渠道、模型与技能，支持网页聊天和设备节点。当前上游为 [openclaw/openclaw](https://github.com/openclaw/openclaw)，原始代码与文档归上游及贡献者。
+
+**使用入口：** 此快照的源码流程为 `pnpm install`、`pnpm ui:build`、`pnpm build`，再运行 `pnpm clawdbot onboard --install-daemon` 完成配置。
+
+**范围说明：** 快照保留 Clawdbot 的历史命名和文档链接；接入需配置相应账号及权限，主会话工具可在宿主机执行，使用前应阅读安全模型。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A historical fork of a personal AI assistant that connects messaging channels, models and skills through a local Gateway, with web chat and device nodes. Current upstream is [openclaw/openclaw](https://github.com/openclaw/openclaw); original code and documentation belong to upstream and its contributors.
+
+**Getting started:** This snapshot documents `pnpm install`, `pnpm ui:build` and `pnpm build`, followed by `pnpm clawdbot onboard --install-daemon` for setup.
+
+**Scope:** The snapshot retains historical Clawdbot naming and documentation links. Integrations require their respective accounts and permissions; main-session tools can execute on the host, so read the security model first.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [openclaw/openclaw](https://github.com/openclaw/openclaw)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
